@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html, #__next {
+    @apply h-full min-w-[320px];
+}
+
+body {
+    @apply font-medium;
+}
+
+#__next {
+    @apply flex flex-col;
+}
