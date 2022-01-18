@@ -25,3 +25,7 @@ Our site is fast out of the box but there are a couple of quick wins we can grab
 - [ ] Wire up the form so that submissions will post the form data to `https://under2.free.beeceptor.com/submit` with the following data structure: 
   ```{ firstName, lastName, email, company }```
 - [ ] Push your progress to your github branch and trigger a build
+
+
+## Part 5 - Finishing up
+- [ ] Share the repo with aaron@under2.agency
