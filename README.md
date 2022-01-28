@@ -28,4 +28,4 @@ Our site is fast out of the box but there are a couple of quick wins we can grab
 
 
 ## Part 5 - Finishing up
-- [ ] Share the repo with aaron@under2.agency
+- [ ] Make sure the repo is public and share it with us
