@@ -13,7 +13,7 @@ HomeHero.propTypes = {
 export function HomeHero({ className = "" }) {
     
     return (
-        <header className={`bg-gray-100 ${className}`}>
+        <header className={`bg-gray-50 ${className}`}>
             <Container className="md:items-center">
                 <div className="col-span-full order-2 md:order-1 md:col-span-5">
                     <Heading>The reporting tools taking the fintech world by storm.</Heading>

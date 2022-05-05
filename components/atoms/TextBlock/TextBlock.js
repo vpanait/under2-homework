@@ -13,7 +13,7 @@ const variants = {
     },
     themes: {
         normal: "text-gray-900",
-        subtle: "text-gray-500",
+        subtle: "text-gray-700",
     }
 }
 
