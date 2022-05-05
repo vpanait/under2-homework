@@ -23,6 +23,7 @@ Our site is fast out of the box but there are a couple of quick wins we can grab
 - [ ] Implement the 2 main oppurtunitues that lighthouse provides
 - [ ] Run another lighthouse test and record the reult
 - [ ] Push your progress to your github branch and trigger a build
+>> the audits are in the /audits folder
 
 ## Part 4 — Finishing off the home page
 
