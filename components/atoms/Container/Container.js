@@ -10,8 +10,8 @@ export function Container({ className = "", children, padding = "md" }) {
     
     const variants = {
         padding: {
-            md: "py-16 md:py-32",
-            mdTopOnly: "pt-16 md:pt-32",
+            md: "py-6 md:py-16",
+            mdTopOnly: "pt-6 md:pt-16",
             none: ""
         }
     }

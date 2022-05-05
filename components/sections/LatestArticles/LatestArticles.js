@@ -13,12 +13,12 @@ LatestArticles.propTypes = {
   children: PropTypes.node,
 };
 
-export function LatestArticles({ className = "", partners }) {
+export function LatestArticles({ className = "" }) {
   return (
     <section className={` ${className}`}>
       <Container>
         <div className="col-span-full">
-          <Heading className="">Latest Articles</Heading>
+          <Heading className="">The latest from Mula</Heading>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-8 my-8 md:my-16">
             {latestArticles?.map((article) => {
               return <TextCard key={article._id} article={article} />;
