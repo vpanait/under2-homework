@@ -1,7 +1,8 @@
 import Head from "next/head";
 
 import { FeaturedBenefits } from "../components/sections/FeaturedBenefits";
-import { FeaturedPartners } from "../components/sections/FeaturedPartners/FeaturedPartners";
+import { FeaturedPartners } from "../components/sections/FeaturedPartners";
+import { LatestArticles } from "../components/sections/LatestArticles";
 import { GlobalFooter } from "../components/sections/GlobalFooter";
 import { GlobalNavigation } from "../components/sections/GlobalNavigation";
 import { HomeHero } from "../components/sections/HomeHero";
@@ -31,6 +32,7 @@ export default function Home() {
         <HomeHero />
         <FeaturedBenefits padding="mdTopOnly" />
         <FeaturedPartners partners={featuredPartnersJSON} />
+        <LatestArticles partners={featuredPartnersJSON} />
       </div>
       <GlobalFooter />
     </>
